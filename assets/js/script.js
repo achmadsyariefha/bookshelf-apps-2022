@@ -6,9 +6,11 @@ document.addEventListener('DOMContentLoaded', function(){
         submitBook.reset();
     });
 
-    if (isStorageExist()) {
-        loadDataFromStorage();
-    }
+    // if (isStorageExist()) {
+    //     loadDataFromStorage();
+    // }
+
+    if (isStorageExist()) loadDataFromStorage();
 });
 
 document.addEventListener('ondatasaved', () => {

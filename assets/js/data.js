@@ -30,6 +30,10 @@ function updateDataToStorage() {
     if (isStorageExist()) saveData();
 }
 
+// const updateDataToStorage = () => {
+//     if (isStorageExist()) saveData();
+// }
+
 function generateListBookObject(title, author, year, isFinished) {
     return {
         id: +new Date(),
